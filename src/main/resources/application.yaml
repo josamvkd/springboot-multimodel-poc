@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot-multimodel-poc
+  ai:
+    ollama:
+      base-url: http://localhost:11434/
+      chat:
+        model: llama3.2:1b
+    openai:
+      api-key: ${OPENAI_API_KEY}
+server:
+  port: 9292
+
